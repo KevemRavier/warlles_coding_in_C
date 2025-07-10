@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+//variaveis
+ float Fah_, Cel_;
+ //entrada de daodsa
+ printf ("quais sao os graus celsius para fazer a conversao: ");
+ scanf("%f", &Cel_);
+
+ //saida de dados 
+ printf("essa é a conversao de celsius para fahrenheit: %f", Fah_=(9*Cel_+160)/5);
+ 
+
+    return 0;
+}
