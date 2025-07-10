@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    //declaracxao de dados
+int nm1, nm2;
+//entrada de dados
+printf("informe o primeiro numero: ");
+scanf("%d", &nm1);
+printf("informe o segundo numero: ");
+scanf("%d", &nm2);
+//saidda de dados
+printf ("a soma dos dois numeros é: %d\n",nm1+nm2);
+printf ("a subtracao dos dois numeros é: %d\n",nm1-nm2);
+printf ("a multiplicacao dos dois numeros é: %d\n", nm1*nm2);
+printf ("a divisao dos dois numeros é: %d\n",nm1/nm2);
+printf ("o resto da divisao dos dois numeros é: %d\n",nm1%nm2);
+return 0;
+}
