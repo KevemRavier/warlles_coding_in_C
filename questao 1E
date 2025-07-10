@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    double PI = 3.14159;
+    float vol_, rai_, alt_;
+    //entrada de dados
+    printf("informe o raio do cilindro: ");
+    scanf("%f", &rai_);
+    printf("informe a alltura do cilindro: ");
+    scanf ("%f", &alt_);
+    //saida de dados 
+    printf ("este é o volume do cilindro: %f", vol_=PI*rai_*alt_ );
+    return 0;
+}
