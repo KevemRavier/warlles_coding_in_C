@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int dia, mes, ano;
+    printf("informe o dia cara: ");
+    scanf ("%d",&dia);
+     printf("informe o mês cara: ");
+    scanf ("%d",&mes);
+     printf("informe o ano cara: ");
+    scanf ("%d",&ano);
+    
+   
+    //saida de dados 
+    printf("a data é %d/%d/%d \n",dia,mes,ano);
+    
+     if (dia==9 && mes==10 && ano==2007){
+        printf("e é a data de nascimento do kevem :0");
+    }
+    return 0;
+}
