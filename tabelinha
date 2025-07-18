@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+   printf("total  =  100%%\nIVA    =  17%%\nIRS    =  15%%\n--------------\nLIQ    =  68%%");
+
+    return 0;
+}
