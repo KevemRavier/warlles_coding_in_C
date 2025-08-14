@@ -3,9 +3,8 @@
 int main() {
    short idd;
    int dpos;
-   char cont[20];
+   long cont;
 
-   // entrada de dados
    printf("Digite sua idade: ");
    scanf("%hd", &idd);
 
@@ -13,10 +12,9 @@ int main() {
    scanf("%d", &dpos);
 
    printf("Digite o numero da conta: ");
-   scanf("%s", cont);
+   scanf("%ld", &cont);
 
-   // saída de dados
-   printf("\nidade: %hd\ndeposito: %d\nconta: %s\n", idd, dpos, cont);
+   printf("\nidade: %hd\ndeposito: %d\nconta: %ld\n", idd, dpos, cont);
 
    return 0;
 }
