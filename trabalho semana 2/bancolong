@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-short idd;
-int dpos;
-long cont;
+   short idd;
+   int dpos;
+   long cont;
 //entrada de dados
-printf("Digite sua idade: ");
-scanf("%hd", &idd);
+   printf("Digite sua idade: ");
+   scanf("%hd", &idd);
 
-printf("Digite o valor a depositar: ");
-scanf("%d", &dpos);
+   printf("Digite o valor a depositar: ");
+   scanf("%d", &dpos);
 
-printf("Digite o numero da conta: ");
-scanf("%ld", &cont);
+   printf("Digite o numero da conta: ");
+   scanf("%ld", &cont);
 //saida de dados
-printf("\nidade: %hd\ndeposito: %d\nconta: %ld\n", idd, dpos, cont);
+   printf("\nidade: %hd\ndeposito: %d\nconta: %ld\n", idd, dpos, cont);
 
-return 0;
+   return 0;
 }
