@@ -1,0 +1,15 @@
+#include <stdio.h>
+//declaracao de variaveis
+int main() {
+int nm;
+//entrada de dados
+printf("Digite um numero: ");
+scanf("%d", &nm);
+//função e saida de dados
+if ((nm % 2 == 0 && nm % 3 != 0) || (nm % 3 == 0 && nm % 2 != 0)) {
+printf("É divisivel pai :) \n");
+} else {
+printf("Nao é divisivel pai :(\n");
+}
+  return 0;
+}
