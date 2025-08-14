@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main()
+{   float nm1, nm2, resp;
+    int esclh;
+    
+    //entrada de dados
+    
+    printf("escolha\n");
+    printf("divisão digite 1\n");
+    printf("soma digite 2\n");
+    printf("subtracao digite 3\n");
+    printf("multiplicacao digite 4\n");
+    printf("digite: ");
+    scanf("%d", &esclh);
+    
+    printf("primeiro numero: ");
+    scanf("%f", &nm1);
+    printf("segundo numero: ");
+    scanf("%f", &nm2);
+    //funcao 
+    if(esclh==1){
+         if(nm2 != 0){
+        resp=nm1/nm2;
+        printf("resultado é %.2f\n",resp);
+    }else{
+        printf("erro divisiao por zero");
+    }
+    }else if(esclh==2){
+        resp=nm1+nm2;
+        printf("resultado é %.2f\n",resp);
+    }
+    else if(esclh==3){
+        resp=nm1-nm2;
+        printf("resultado é %.2f\n",resp);
+    }
+    else if(esclh==4){
+        resp=nm1*nm2;
+        printf("resultado é %.2f\n",resp);
+    } else {
+        printf("nmero mano");
+    }
+    return 0;
+}
