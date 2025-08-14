@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-int numero;
-int nm1, nm2, nm3, nm4, nm5;
+   int numero;
+   int nm1, nm2, nm3, nm4, nm5;
 
 //entrada de dados
-printf("escreva um numero de 5 digitos: ");
-scanf("%d", &numero);
+   printf("escreva um numero de 5 digitos: ");
+   scanf("%d", &numero);
 
-nm1 = numero / 10000;
-nm2 = (numero / 1000) % 10;
-nm3 = (numero / 100) % 10;
-nm4 = (numero / 10) % 10;
-nm5 = numero % 10;
+   nm1 = numero / 10000;
+   nm2 = (numero / 1000) % 10;
+   nm3 = (numero / 100) % 10;
+   nm4 = (numero / 10) % 10;
+   nm5 = numero % 10;
 //saida de dados
-printf("%d   %d   %d   %d   %d\n", nm1, nm2, nm3, nm4, nm5);
+   printf("%d   %d   %d   %d   %d\n", nm1, nm2, nm3, nm4, nm5);
 
-return 0;
+   return 0;
 }
